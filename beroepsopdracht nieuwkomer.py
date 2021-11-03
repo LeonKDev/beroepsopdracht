@@ -1,4 +1,4 @@
-
+import os
 #stuk 1
 def begin():
     print("Terwijl ik in mijn kamer zit hoor ik de schoten en explosies steeds dichterbij komen.\nIk moet nu echt weg hier ver van dit lawaai en geweld voor het te laat is.\nJe pakt je rugtas en loopt naar buiten.")
@@ -144,7 +144,7 @@ def einde5():
 
 begin()
 
-#repeat programy
+#repeat program
 while True:
     print("\n\nherhaal programma?  y/n")
     loop = input()
