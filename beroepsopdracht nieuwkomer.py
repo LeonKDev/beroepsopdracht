@@ -1,6 +1,7 @@
 import os
 #stuk 1
 def begin():
+    os.system("cls")
     print("Terwijl ik in mijn kamer zit hoor ik de schoten en explosies steeds dichterbij komen.\nIk moet nu echt weg hier ver van dit lawaai en geweld voor het te laat is.\nJe pakt je rugtas en loopt naar buiten.")
     groep()
 
@@ -15,6 +16,7 @@ def groep():
 
 #stuk 3
 def samen():
+    os.system("cls")
     print("\nJe kunt mee met de groep.\nJullie pakken wat extra eten en drinken en gaan onderweg naar Nederland.\nGaan jullie met de bus of lopend naar de grens.\n\na. ga lopend\nb. ga met de bus")
     answer2 = input()
     if answer2.lower() == "a":
@@ -24,6 +26,7 @@ def samen():
 
 #stuk 4
 def lang():
+    os.system("cls")
     print("\nNa een uur te hebben gelopen merken jullie dat dit te lang gaat duren.\njullie bellen een taxi.")
     stadje()
 
