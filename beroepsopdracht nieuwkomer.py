@@ -58,7 +58,7 @@ def griekenland():
 def aankomst_dorpje():
     print("\nEenmaal aangekomen in het dropje komen er mensen naar jullie toe die vragen waar jullie heen gaan.\nNa het zeggen dat jullie naar Nederland willen zegt iemand dat hij jullie wel naar Turkije kan brengen omdat hij daar toch heen moet met zijn vrachtwagen.\ner worden jullie ook kamers aangeboden om te slapen en uitrusten.\n\na. ga mee met de vrachtwagen\nb. blijf een nacht in het dorpje")
     answer5 = input()
-    if answer5.lower == "a":
+    if answer5.lower() == "a":
         griekenland()
     else:
         einde2()
@@ -86,7 +86,7 @@ def liften():
 def klapband():
     print("\nOnderweg naar het vliegveld klapt de band van de auto uit het niets.\njullie moeten nu eerst de band maken voordat je naar het vliegveld kunt.\n\na. probeer zelf de band te vervangen\nb. wacht tot er iemand langs rijd en vraag om hulp")
     answer6 = input()
-    if answer6.lower == "a":
+    if answer6.lower() == "a":
         vliegveld()
     else:
         einde3()
@@ -95,7 +95,7 @@ def klapband():
 def vliegveld():
     print("\nNa een uur hard werken is het gelukt om de band er op te krijgen en zijn jullie nu aangekomen op het vliegveld.\nhet lijkt wel alsof er een miljoen mensen om het vliegveld heen staan zoveel mensen willen naar binnen komen.\nJe moet proberen om op een van die vliegtuigen te komen want je weet niet of er nog nieuwe komen.\n\na. probeer door de menigte te komen\nb.rij met de auto door het hek van het vliegveld heen")
     answer7 = input()
-    if answer7.lower == "a":
+    if answer7.lower() == "a":
         vliegen()
     else:
         vliegen()
@@ -107,7 +107,7 @@ def einde3():
 def vliegen():
     print("\nhet is gelukt om op het vliegveld te komen.\nnu moet je snel een vliegtuig in komen om te vluchten.\n\na.pak het vleigtuig naar nederland\nb. pak het vliegtuig naar duitsland")
     answer8 = input()
-    if answer8.lower == "a":
+    if answer8.lower() == "a":
         nederland()
     else:
         einde4()
@@ -120,7 +120,7 @@ def einde4():
 def nederland():
     print("\nEenmaal aangekomen in Nederland word je opgenomen door de politie en ingeschreven in Nederland.\nJe vraagt een asiel aan en die word binnen een week geaccepteerd en je krijgt tijdelijk een plek om te slapen.\nje moet nu een inburgering examen maken als je in Nederland wilt wonen\n\na. leer goed voor het examen\nb. leer niet voor het examen")
     answer9 = input()
-    if answer9.lower == "a":
+    if answer9.lower() == "a":
         inburgering()
     else:
         herkansing()
@@ -133,7 +133,7 @@ def inburgering():
 def herkansing():
     print("\nJe hebt het examen gezakt maar je kan een herkansing doen\n\na. leer nu wel voor het examen\nb. soms gaat het leven zo")
     answer10 = input()
-    if answer10.lower == "a":
+    if answer10.lower() == "a":
         inburgering()
     else:
         einde5()
