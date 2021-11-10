@@ -41,6 +41,7 @@ def stadje():
 
 #stuk 6
 def smokkelaar():
+    os.system("cls")
     print("\nNa een tijdje te hebben gebeld met de smokkelaar komt hij jullie ophalen en over de grens brengen.\njullie worden in een vrachtwagen container gestopt en de grens over gereden.\nNu moeten jullie een manier zien te vinden om naar Nederland te komen.\n\na. probeer met mensen mee te liften naar Turkije\nb. loop naar het dichtsbijzijnde dorpje")
     answer4 = input()
     if answer4.lower() == "a":
@@ -50,15 +51,18 @@ def smokkelaar():
 
 #stuk 7
 def einde1():
+    os.system("cls")
     print("\nJe komt niet de grens over omdat de taliban niemand wil laten vluchten uit hun land.\n\nEINDE")
 
 #stuk 8
 def griekenland():
+    os.system("cls")
     print("\nNa 2 dagen met een vrachtwagen te hebben mee gelift kom je aan in Turkije waar vandaan je met een bootje naar Griekenland vaart.\nMaar onderweg gaat de motor van jullie boot stuk\n je probeert de motor te maken.")
     geluk()
 
 #stuk 9 
 def aankomst_dorpje():
+    os.system("cls")
     print("\nEenmaal aangekomen in het dropje komen er mensen naar jullie toe die vragen waar jullie heen gaan.\nNa het zeggen dat jullie naar Nederland willen zegt iemand dat hij jullie wel naar Turkije kan brengen omdat hij daar toch heen moet met zijn vrachtwagen.\ner worden jullie ook kamers aangeboden om te slapen en uitrusten.\n\na. ga mee met de vrachtwagen\nb. blijf een nacht in het dorpje")
     answer5 = input()
     if answer5.lower() == "a":
@@ -73,6 +77,7 @@ def geluk():
 
 #stuk 11
 def einde2():
+    os.system("cls")
     print("\nJe schrikt wakker door het geluid van schoten.\nJullie zijn verlinkt door mensen uit het dorpje aan de taliban die jullie nu zien als landverraders\n\nEINDE")
 
 #stuk 12
@@ -82,6 +87,7 @@ def soldaten():
 
 #stuk 13
 def liften():
+    os.system("cls")
     print("\nje staat langs de weg te vragen of mensen je mee kunne nemen naar de grens of het vliegveld van Kabul.\nNa een tijdje vragen zeg iemand dat je wel mee kan naar het vliegveld.")
     klapband()
 
@@ -96,6 +102,7 @@ def klapband():
 
 #stuk 15
 def vliegveld():
+    os.system("cls")
     print("\nNa een uur hard werken is het gelukt om de band er op te krijgen en zijn jullie nu aangekomen op het vliegveld.\nhet lijkt wel alsof er een miljoen mensen om het vliegveld heen staan zoveel mensen willen naar binnen komen.\nJe moet proberen om op een van die vliegtuigen te komen want je weet niet of er nog nieuwe komen.\n\na. probeer door de menigte te komen\nb.rij met de auto door het hek van het vliegveld heen")
     answer7 = input()
     if answer7.lower() == "a":
@@ -104,10 +111,12 @@ def vliegveld():
         vliegen()
 #stuk 16
 def einde3():
+    os.system("cls")
     print("\nterwijl je wacht tot er iemand langs rijd zie je in de verte een auto aankomen\ner zaten mensen van de taliban in die jullie achtervolgde.\n\nEINDE")
 
 #stuk 17
 def vliegen():
+    os.system("cls")
     print("\nhet is gelukt om op het vliegveld te komen.\nnu moet je snel een vliegtuig in komen om te vluchten.\n\na.pak het vleigtuig naar nederland\nb. pak het vliegtuig naar duitsland")
     answer8 = input()
     if answer8.lower() == "a":
@@ -117,6 +126,7 @@ def vliegen():
 
 #stuk 18
 def einde4():
+    os.system("cls")
     print("\nDe taliban heeft gehoord dat er een belangrijk persoon in een Duits vliegtuig zit en wil vluchten.\nze schieten het landingstoestel stuk van het vliegtuig waardoor je niet kan vluchten.\n\nEINDE")
 
 #stuk 19
@@ -130,10 +140,12 @@ def nederland():
     
 #stuk 20
 def inburgering():
+    os.system("cls")
     print("\nje hebt het inburgering examen gehaald en je woont nu in Nederland waar je veilig bent voor de taliban\n\nEINDE")
 
 #stuk 21
 def herkansing():
+    os.system("cls")
     print("\nJe hebt het examen gezakt maar je kan een herkansing doen\n\na. leer nu wel voor het examen\nb. soms gaat het leven zo")
     answer10 = input()
     if answer10.lower() == "a":
@@ -143,6 +155,7 @@ def herkansing():
 
 #stuk 22
 def einde5():
+    os.system("cls")
     print("\nje mag niet in Nederland blijven en moet terug naar Afghanistan\n\nEINDE")
 
 begin()
